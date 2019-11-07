@@ -10,6 +10,7 @@ import Login from "./components/login/Login"
 import SignUp from './components/signup/Signup';
 import Home from './components/Home'
 function App() {
+  console.log(process.env.REACT_APP_API_KEY)
   return (
     <Router>
     <div className="App">
